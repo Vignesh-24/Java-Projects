@@ -45,7 +45,7 @@ class newabc implements Runnable
 	
 }
 
-public class Funn {
+public class Multi_thread {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
