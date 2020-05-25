@@ -6,7 +6,7 @@ public class prime {
 	public static boolean prime(int n)
 	{
 		int flag=0;
-		for(int k=2;k<=n/2;k++)
+		for(int k=2;k*k<=n;k++)
 		{
 			if(n % k != 0)
 				flag=1;
