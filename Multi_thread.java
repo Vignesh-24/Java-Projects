@@ -48,7 +48,6 @@ class newabc implements Runnable
 public class Multi_thread {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Thread t1=new Thread(new abc());
 		Thread t2=new Thread(new newabc());
 		t1.start();
