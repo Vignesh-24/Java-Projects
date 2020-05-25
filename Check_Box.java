@@ -9,8 +9,14 @@ import java.awt.event.*;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.*;
-
-public class Calc extends JFrame implements ItemListener{
+/*
+*
+*
+Program for checkbox listener
+*
+*
+*/
+public class Check_Box extends JFrame implements ItemListener{
 
 	static CheckboxGroup c;
 	static Checkbox c1,c2,c3;
