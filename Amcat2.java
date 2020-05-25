@@ -1,5 +1,8 @@
 package prepare;
 import java.util.Scanner;
+/*
+Rotate Image 90 degree to right and left
+*/
 public class Amcat2 {
 
 	public static void main(String[] args) {
