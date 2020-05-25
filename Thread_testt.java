@@ -1,9 +1,8 @@
 package generics;
-public class testt {
+public class Thread_testt {
 
 	public static void main(String[] args)
 	{
-		//static final Object objmain=new Object();
 		t obj=new t("Thread1");
 		t1 ob=new t1("Thread2");
 		//Thread t1=new Thread(obj,"Thread1");
