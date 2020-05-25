@@ -46,8 +46,7 @@ public class Check_Box extends JFrame implements ItemListener{
 	}
 		public void itemStateChanged(ItemEvent ie) 
 		{
-			//Object obj=ie.getItemSelectable();
-			//System.out.println(ie.getItem());
+			
 		    if(ie.getStateChange() == 1)
 			  t.setText((String)ie.getItem());
 		    else
