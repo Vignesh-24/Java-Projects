@@ -17,6 +17,8 @@ public class Spiral {
 			for(int i=upper;i<=bottom;i++)
 				arr[i][right]=count++;
 			right--;
+			if(left>right || upper>bottom)
+				break;
 			for(int i=right;i>=left;i--)
 				arr[bottom][i]=count++;
 			bottom--;
